@@ -17,7 +17,7 @@ function Questions(props) {
             </Link>
           </li>)}
       </ol>
-      <AddQuestion path="" AddQuestion={addQuestion}/>
+      
     </>
   )
 }

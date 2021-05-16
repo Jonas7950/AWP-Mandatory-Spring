@@ -17,7 +17,7 @@ function AddQuestion(props) {
 
       <button type="button" onClick={(event) => {
         console.log(title + desc);
-        //addQuestion(title, desc);
+        addQuestion(title, desc);
       }}>Ask Question
       </button>
     </>

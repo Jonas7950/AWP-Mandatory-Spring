@@ -17,7 +17,7 @@ module.exports = (questionDB) => {
   router.post('/', async (req, res) => {
     const question = await questionDB.createQuestion(req.params.title, req.params.description)
       .then(data => {
-        res.json(data)
+        res.json(question)
       })
       .catch(err => {
         res.send("error posting to db")
